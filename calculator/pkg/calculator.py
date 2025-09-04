@@ -45,7 +45,6 @@ class Calculator:
 
         if len(values) != 1:
             raise ValueError("invalid expression")
-
         return values[0]
 
     def _apply_operator(self, operators, values):
